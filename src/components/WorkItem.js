@@ -13,11 +13,13 @@ import ProjectItem from "./ProjectItem.js";
 import Container from '@mui/material/Container';
 import Grid from '@mui/material/Grid';
 import data from "../assets/data.json";
+import AboutItem from "./AboutItem.js"
 
 export default function WorkItem(props) {
 
 	return (
         <div>
+        <Stack spacing={2} alignItems='center'>
         <Container>
           <Container>
               <Grid container spacing={3}>
@@ -31,6 +33,9 @@ export default function WorkItem(props) {
               </Grid>
             </Container>
           </Container>
+          <br></br><br></br>
+          <AboutItem></AboutItem>
+          </Stack>
         </div>
       );
 }

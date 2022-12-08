@@ -45,6 +45,13 @@ export default function AboutItem(props) {
                 &nbsp; &nbsp;
                 On this website, I display a portfolio of projects that I created in a User Interfaces 
                 and User &nbsp; &nbsp; Experience class. 
+                <br></br><br></br>
+                &nbsp; &nbsp;
+                Through this portfolio, I want to showcase my development as a designer.
+                Prior to this 
+                &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;class, I had no experience with UIUX. With each project, 
+                I reflect on my thought process 
+                &nbsp;&nbsp;&nbsp;&nbsp;and key design decisions.
 
                 <br></br><br></br>
                 &nbsp; &nbsp;

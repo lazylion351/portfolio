@@ -55,7 +55,7 @@ function App() {
               >
               Home
             </Button>
-            <Button 
+            {/* <Button 
               color="warning"
               size="large" 
               variant="text"
@@ -63,7 +63,7 @@ function App() {
               value="About Me"
               >
               About Me
-            </Button>
+            </Button> */}
           </Container>
           </Container>
         </AppBar>  

@@ -26,8 +26,9 @@ export default function PageItem(props) {
         return <IterativeItem/>
     } else if (props.curPage === "Development") {
         return <DevItem/>
-    } else if (props.curPage === "About Me") {
-        return <AboutItem/>
-    } 
+    }
+    // } else if (props.curPage === "About Me") {
+    //     return <AboutItem/>
+    // } 
     
 }
