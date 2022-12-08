@@ -55,7 +55,7 @@ export default function PersonasItem(props) {
         and illustrate a storyboard for one of my personas.
         </Typography>
         <br></br><br></br>
-        <Typography variant="h4" sx={{ color: "#ffa726" }}>
+        {/* <Typography variant="h4" sx={{ color: "#ffa726" }}>
         Machine Description
         </Typography>
         <br></br>
@@ -89,7 +89,7 @@ export default function PersonasItem(props) {
             </ListItem>
         </List>
 
-        <br></br><br></br>
+        <br></br><br></br> */}
         <Typography variant="h4" sx={{ color: "#ffa726" }}>
         My Observations
         </Typography>
@@ -125,7 +125,7 @@ export default function PersonasItem(props) {
             </ListItem>
         </List>
 
-        <br></br><br></br>
+        {/* <br></br><br></br>
         <Typography variant="h4" sx={{ color: "#ffa726" }}>
         Interview Questions
         </Typography>
@@ -154,7 +154,7 @@ export default function PersonasItem(props) {
                 primary="Was there anything you didn't find intuitive about making coffee with this machine?"
                 />
             </ListItem>
-        </List>
+        </List> */}
 
         <br></br><br></br>
         <Typography variant="h4" sx={{ color: "#ffa726" }}>

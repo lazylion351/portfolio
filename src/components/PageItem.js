@@ -10,6 +10,9 @@ import { useState } from "react";
 import WorkItem from "./WorkItem.js";
 import PersonasItem from "./PersonasItem.js";
 import RRItem from "./RRItem.js";
+import IterativeItem from "./IterativeItem.js";
+import DevItem from "./DevItem.js";
+import AboutItem from "./AboutItem.js";
 
 export default function PageItem(props) {
 
@@ -19,6 +22,12 @@ export default function PageItem(props) {
         return <PersonasItem/>
     } else if (props.curPage === "Responsive Redesign") {
         return <RRItem/>
-    }
-
+    } else if (props.curPage === "Iterative Design") {
+        return <IterativeItem/>
+    } else if (props.curPage === "Development") {
+        return <DevItem/>
+    } else if (props.curPage === "About Me") {
+        return <AboutItem/>
+    } 
+    
 }
